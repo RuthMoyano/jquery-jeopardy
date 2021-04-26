@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a7018daf-b329-4d31-8fe3-42efa896a2e7/deae6j7-f1bd0097-d153-4f30-8735-5f8d4ad42de6.jpg/v1/fill/w_622,h_350,q_70,strp/_i_tried__jeopardy__2011_2012__template_background_by_jamelovesfonts11_deae6j7-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC9hNzAxOGRhZi1iMzI5LTRkMzEtOGZlMy00MmVmYTg5NmEyZTdcL2RlYWU2ajctZjFiZDAwOTctZDE1My00ZjMwLTg3MzUtNWY4ZDRhZDQyZGU2LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Ht9lQdfG6aRN95X-qFA804l23AKgj7e-tWioih_M-1U");
+    color: white;
+  }
+  
+  #app-title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  #gridBoard {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem 15rem 15rem;
+    grid-gap: 2px;
+    justify-content: center;
+  }
+  
+  .box {
+    background-color: rgb(31, 31, 137);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #question-response {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+  }
+  
+  #answer-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .answer {
+    margin-left: 0.5rem;
+  }
